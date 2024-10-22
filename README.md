@@ -1,14 +1,6 @@
-# GitHub Data Scraper for Tokyo-based Developers
 
-    This script scrapes GitHub users located in Tokyo with more than 200 followers using the GitHub API.
+1: The data was scraped using the GitHub API to extract information on users in Tokyo with over 200 followers, focusing on their profiles, repositories, and activity.
+2: Surprisingly, hireable users tend to follow significantly fewer people than non-hireable users, suggesting a potential trend in networking behavior.
+3: Developers should keep their bios concise but meaningful, as even slight increases in bio length show a small positive correlation with follower count.
 
-    ## Key Features:
-    - **Users**: For each user, the script retrieves details such as their GitHub login, name, company, location, email, and more.
-    - **Repositories**: For each user, the script fetches up to the 500 most recently pushed repositories with details such as programming language, stars, watchers, and licenses.
-
-    ## Output Files:
-    - **users.csv**: Contains user information (login, name, company, location, etc.).
-    - **repositories.csv**: Contains repository information (login, repo name, language, stars, etc.).
-
-    ## Usage:
-    To collect GitHub user data from Tokyo with over 200 followers, simply run the script.
+    
