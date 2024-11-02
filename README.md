@@ -10,12 +10,14 @@ Similarly for fetching information upto 500 most recently pushed repositories fo
 
 sort=pushed&per_page=100&page={page} where page is again an iterable since all the results won't come in a single page. This gives us details about each repository of the user like login, full_name, created_at, stargazers_count, watches_count, language, has_projects, has_wiki, license_name.
 
-2. Interesting fact
+2. Interesting fact:
+
 The most interesting fact I found out after analyzing the data using the GitHub API was the performance of the API, if it were not for the rate limit the data acquisition from the api is quite fast for such a large amount of data, it were able to give me info of upto 500 repositories of 592 users in Tokyo in a matter of few minutes which were 66463 recors in total.
 
 Surprisingly, hireable users tend to follow significantly fewer people than non-hireable users, suggesting a potential trend in networking behavior.
 
-3. Actionable Recommendation
+3. Actionable Recommendation:
+
 The use of personal access token (PAT) or fine-grained tokens are of great use in using GitHub API since it increases your rate limit and also ensures security by allowing you to set it's permissions.
 
 Developers should keep their bios concise but meaningful, as even slight increases in bio length show a small positive correlation with follower count.
